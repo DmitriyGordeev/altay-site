@@ -66,3 +66,28 @@ footer {
     border-left: 5px solid white;
     padding-left: 15px;
 }
+
+.block {
+    width: 80%;
+    margin: 0 auto;
+    /*background: #a0d4d9;*/
+    height: 100%;
+}
+
+.block img.content {
+    height: 100%;
+    margin-left: 50px;
+    -webkit-clip-path: circle(170px at 35% 50%);
+    clip-path: circle(170px at 35% 50%);
+}
+
+.block p.block-text {
+    position: relative;
+    display: inline-block;
+    /*background: green;*/
+    vertical-align: top;
+    left: -200px;
+    top: 120px;
+    font-size: 40px;
+    color: #144d57;
+}
