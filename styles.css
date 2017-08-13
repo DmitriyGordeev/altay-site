@@ -29,6 +29,14 @@ footer {
     background: #ff8282;
 }
 
+#logo {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: calc(50% - 100px);
+    top: 100px;
+}
+
 .large-block {
     position: relative;
     color: white;
@@ -44,9 +52,17 @@ footer {
     position: absolute;
 }
 
-.top-heading {
+.block-heading {
     font-weight: 900;
     font-size: 60px;
     left: 130px;
-    bottom: 250px;
+    bottom: 300px;
+}
+
+.block-description {
+    left: 130px;
+    bottom: 200px;
+    font-size: 23px;
+    border-left: 5px solid white;
+    padding-left: 15px;
 }
