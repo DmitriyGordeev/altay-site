@@ -1,0 +1,40 @@
+
+:root {
+    --main-dark-color: #144d57;
+    --main-light-color: #ffffff;
+    --second-dark-color: #ffffff;
+    --second-light-color: #ffffff;
+}
+
+* {
+    padding: 0;
+    margin:  0;
+    font-family: 'Roboto Slab', serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 100px;
+    background: #befaff;
+    overflow: hidden;
+}
+
+main {
+    height: 100px;
+    background: #afffa4;
+}
+
+footer {
+    height: 100px;
+    background: #ff8282;
+}
+
+.long-hr-line {
+    width: 80%;
+    margin: 0 auto;
+    border: 3px solid var(--main-dark-color);
+}
