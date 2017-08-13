@@ -126,7 +126,7 @@ footer {
     margin: 0 17px;
 }
 
-#guides li > img {
+#guides li > img, #rooms li > img {
     width: 60%;
     margin: 0 auto;
     display: block;
@@ -140,4 +140,8 @@ footer {
     position: relative;
     font-size: 20px;
     font-family: 'Didact Gothic', sans-serif;
+}
+
+#rooms li > img {
+    width: 100%;
 }
