@@ -2,8 +2,8 @@
 :root {
     --main-dark-color: #144d57;
     --main-light-color: #ffffff;
-    --second-dark-color: #ffffff;
-    --second-light-color: #ffffff;
+    --secondary-dark-color: #144d57;
+    --secondary-light-color: #ffffff;
 }
 
 * {
@@ -26,7 +26,7 @@ main {
 
 footer {
     height: 100px;
-    background: #ff8282;
+    background: #144d57;
 }
 
 #logo {
@@ -68,17 +68,26 @@ footer {
 }
 
 .block {
-    width: 80%;
-    margin: 0 auto;
     /*background: #a0d4d9;*/
     height: 100%;
 }
 
 .block img.content {
-    height: 100%;
-    margin-left: 50px;
-    -webkit-clip-path: circle(170px at 35% 50%);
-    clip-path: circle(170px at 35% 50%);
+    position: absolute;
+    height: 80%;
+    margin-left: 170px;
+    margin-top: 50px;
+    margin-top: 50px;
+    border: 1px solid blue;
+    -webkit-clip-path: circle(190px at 35% 50%);
+    clip-path: circle(190px at 35% 50%);
+    transition-duration: 0.4s;
+}
+
+.block img.content:hover {
+    -webkit-clip-path: circle(190px at 45% 50%);
+    clip-path: circle(190px at 45% 50%);
+    transition-duration: 0.4s;
 }
 
 .block p.block-text {
@@ -86,8 +95,48 @@ footer {
     display: inline-block;
     /*background: green;*/
     vertical-align: top;
-    left: -200px;
+    right: 320px;
     top: 120px;
+    float: right;
     font-size: 40px;
     color: #144d57;
+}
+
+.small-heading {
+    color: var(--secondary-dark-color);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.h-menu {
+    margin: 150px auto 0;
+    height: 250px;
+    width: 80%;
+    list-style: none;
+}
+
+.h-menu > li {
+    width: 30%;
+    float: left;
+    display: inline-block;
+    height: 300px;
+    margin: 0 17px;
+}
+
+#guides li > img {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+#guides p {
+    text-align: center;
+    color: var(--secondary-dark-color);
+    display: block;
+    margin: 15px auto;
+    position: relative;
+    font-size: 20px;
 }
