@@ -68,6 +68,32 @@ footer {
     position: absolute;
 }
 
+#contact-bar {
+    left: 130px;
+    bottom: 120px;
+    font-size: 16px;
+    border-left: 5px solid white;
+    padding-left: 15px;
+    position: absolute;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#contact-bar:hover {
+    border-left: 5px solid #afeaef;
+    transition-duration: 0.4s;
+}
+
+#contact-bar > a {
+    text-decoration: none;
+    color: white;
+}
+
+#contact-bar > a:hover {
+    color: #afeaef;
+}
+
+
 .block-text {
     position: absolute;
     width: 450px;
@@ -236,5 +262,6 @@ input[type="submit"]:hover {
 .form-ref:hover {
     background: #58c6d5;
     transition-duration: 0.4s;
+    cursor: pointer;
 }
 
