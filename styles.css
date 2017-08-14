@@ -35,6 +35,12 @@ footer {
     position: absolute;
     left: calc(50% - 100px);
     top: 100px;
+
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
 }
 
 .large-block {
@@ -57,6 +63,12 @@ footer {
     left: 130px;
     bottom: 300px;
     position: absolute;
+
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
 }
 
 #main-block-description {
@@ -66,6 +78,12 @@ footer {
     border-left: 5px solid white;
     padding-left: 15px;
     position: absolute;
+
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
 }
 
 #contact-bar {
@@ -77,20 +95,31 @@ footer {
     position: absolute;
     cursor: pointer;
     transition-duration: 0.4s;
+
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
 }
 
 #contact-bar:hover {
-    border-left: 5px solid #afeaef;
+    border-left: 5px solid #42d8db;
     transition-duration: 0.4s;
 }
 
 #contact-bar > a {
     text-decoration: none;
     color: white;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
 }
 
 #contact-bar > a:hover {
-    color: #afeaef;
+    color: #42d8db;
 }
 
 

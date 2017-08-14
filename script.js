@@ -12,21 +12,24 @@ function onSubmit() {
     return true;
 }
 
+function blurElement(element, size) {
+    var filterVal = 'blur(' + size + 'px)';
+    jQuery(element).css({
+        'filter':filterVal,
+        'webkitFilter':filterVal,
+        'mozFilter':filterVal,
+        'oFilter':filterVal,
+        'msFilter':filterVal,
+        'transition':'all 2.5s ease-out',
+        '-webkit-transition':'all 2.5s ease-out',
+        '-moz-transition':'all 2.5s ease-out',
+        '-o-transition':'all 2.5s ease-out'
+    });
+}
+
 jQuery(document).ready(function() {
-    // jQuery(window).scroll( function(){
-    //
-    //     /* Check the location of each desired element */
-    //     jQuery('.block').each( function(i){
-    //
-    //         var bottom_of_object = jQuery(this).offset().top + jQuery(this).outerHeight();
-    //         var bottom_of_window = jQuery(window).scrollTop() + jQuery(window).height();
-    //
-    //         /* If the object is completely visible in the window, fade it it */
-    //         if( bottom_of_window > bottom_of_object - 250 ){
-    //             jQuery(this).animate({'opacity':'1'}, 500);
-    //         }
-    //
-    //     });
-    //
-    // });
+    blurElement(jQuery("#logo"), 0);
+    blurElement(jQuery("#main-block-heading"), 0);
+    blurElement(jQuery("#main-block-description"), 0);
+    blurElement(jQuery("#contact-bar, #contact-bar > a"), 0);
 });
