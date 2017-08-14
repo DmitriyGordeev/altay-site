@@ -20,10 +20,10 @@ function blurElement(element, size) {
         'mozFilter':filterVal,
         'oFilter':filterVal,
         'msFilter':filterVal,
-        'transition':'all 2.5s ease-out',
-        '-webkit-transition':'all 2.5s ease-out',
-        '-moz-transition':'all 2.5s ease-out',
-        '-o-transition':'all 2.5s ease-out'
+        'transition':'all 2.0s ease-out',
+        '-webkit-transition':'all 2.0s ease-out',
+        '-moz-transition':'all 2.0s ease-out',
+        '-o-transition':'all 2.0s ease-out'
     });
 }
 
