@@ -91,6 +91,7 @@ footer {
 .block {
     /*background: #a0d4d9;*/
     height: 100%;
+    opacity: 0;
 }
 
 .block img.content {
