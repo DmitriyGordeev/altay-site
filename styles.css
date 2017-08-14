@@ -1,7 +1,7 @@
 
 :root {
     --main-dark-color: #144d57;
-    --main-light-color: #ffffff;
+    --main-light-color: #4ca0ae;
     --secondary-dark-color: #144d57;
     --secondary-light-color: #1e7575;
 }
@@ -91,7 +91,7 @@ footer {
 .block {
     /*background: #a0d4d9;*/
     height: 100%;
-    opacity: 0;
+    /*opacity: 0;*/
 }
 
 .block img.content {
@@ -171,7 +171,7 @@ footer {
 form {
     height: 500px;
     width: 400px;
-    margin: 40px auto;
+    margin: 50px auto;
 }
 
 input {
@@ -220,5 +220,21 @@ input[type="submit"]:hover {
     cursor: pointer;
     transition-duration: 0.4s;
     border: 4px solid #ff8282;
+}
+
+.form-ref {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    background: var(--main-light-color);
+    padding: 7px 9px;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.form-ref:hover {
+    background: #58c6d5;
+    transition-duration: 0.4s;
 }
 

@@ -34,6 +34,7 @@
                 <div class="block-text">
                     <p class="block-heading">Места Силы</p>
                     <p class="block-description">[ Текст про места силы ]</p>
+                    <a class="form-ref" href="#form-anchor">Отправить</a>
                 </div>
             </div>
         </div>
@@ -43,6 +44,7 @@
                 <div class="block-text">
                     <p class="block-heading">Места Силы</p>
                     <p class="block-description">[ Текст про места силы ]</p>
+                    <a class="form-ref" href="#form-anchor">Отправить</a>
                 </div>
             </div>
         </div>
@@ -52,6 +54,7 @@
                 <div class="block-text">
                     <p class="block-heading">Места Силы</p>
                     <p class="block-description">[ Текст про места силы ]</p>
+                    <a class="form-ref" href="#form-anchor">Отправить</a>
                 </div>
             </div>
         </div>
@@ -106,11 +109,11 @@
         </div>
 
         <!-- contact: -->
-        <div class="large-block" style="background: #f8f8f8; height: 500px">
+        <div class="large-block" id="form-anchor" style="background: #f8f8f8; height: 500px">
             <p class="small-heading">
                 Оставьте заявку
             </p>
-            <form method="post">
+            <form action="send_email.php" method="post" onsubmit="onSubmit()">
                 <input name="username" placeholder="Введите Ваше имя">
                 <input type="email" name="email" placeholder="Ваш email">
                 <textarea name="message" placeholder="Ваш вопрос" rows="5" cols="30"></textarea>
