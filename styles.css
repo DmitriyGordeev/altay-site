@@ -129,7 +129,7 @@ footer {
     position: absolute;
     width: 450px;
     right: 220px;
-    top: 130px;
+    top: 110px;
 }
 
 .block-heading {
@@ -139,10 +139,11 @@ footer {
 
 .block-description {
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 20px;
     color: #1e7575;
     border-left: 4px solid var(--secondary-light-color);
-    padding-left: 8px;
+    padding-left: 12px;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 .block {
@@ -166,6 +167,21 @@ footer {
 .block img.content:hover {
     -webkit-clip-path: circle(190px at 45% 50%);
     clip-path: circle(190px at 45% 50%);
+    transition-duration: 0.4s;
+}
+
+.large-block:nth-of-type(4) img.content {
+    -webkit-clip-path: circle(190px at 50% 50%);
+    clip-path: circle(190px at 50% 50%);
+    transition-duration: 0.4s;
+}
+
+.large-block:nth-of-type(4) img.content:hover {
+    height: 85%;
+    margin-top: 38px;
+    margin-left: 157px;
+    -webkit-clip-path: circle(190px at 50% 50%);
+    clip-path: circle(190px at 50% 50%);
     transition-duration: 0.4s;
 }
 
